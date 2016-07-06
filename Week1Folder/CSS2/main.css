@@ -1,0 +1,182 @@
+/* ADD YOUR STYLES HERE */
+/*Number 6*/
+.horizontally-same {
+	margin: auto;
+	padding-left: 11%;
+}
+
+.horizontally-same img{
+	margin:3%;
+}
+
+/* works with different HTML */
+
+.random-content {
+	float: left;
+	padding: 20px;
+}
+
+/* vertically centering the icons with padding */
+
+.container {
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+/* works with different HTML */
+
+.container {
+	padding-top:10%;
+	padding-bottom: 10%;
+}
+
+/* Horizontal list (note the li in seperates the two commands) */
+.nav-bar li{
+	display: inline-block;
+	float: left;
+}
+
+.nav-bar{
+	padding: 0%;
+}
+
+/* creating buttons with different sizes */
+.button-setup {
+	display:inline-block;
+	background-color: #FF6666;
+	text-decoration: none;
+	color:#fff;
+	border-radius: 5px;
+	border: 0;
+}
+
+.large-button {
+	padding: 20px 60px 20px;
+	font-size: 27px;
+}
+
+.standard-size-button {
+	padding: 10px 30px 10px;
+	font-size: 17px;
+}
+
+.small-button {
+	padding: 5px 10px 5px;
+	font-size: 14px;
+}
+
+/* Navigation Styling*/
+
+.main-nav {
+	background-color: #FF6666;
+	text-align: center;
+	padding: 0;
+	border-radius: 8px;
+}
+
+.main-nav a{
+	display: inline-block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+	width: 110px;
+}
+
+.main-nav li {
+	display: inline-block;
+}
+/* Page Navigation */
+
+.page-nav {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+.page-nav a {
+	text-decoration: none;
+	color: #FF6666;
+}
+
+.page-nav li {
+	display: inline-block;
+}
+
+.page-nav-jumper {
+	padding: 20px;
+}
+
+.active-page {
+	color: #bbb;
+	padding: 10px;
+	margin: 5px;
+	border-bottom: 3px solid #bbb;
+}
+
+.inactive-page {
+	padding: 10px;
+	margin: 5px;
+	border-bottom: 3px solid #FF6666;
+}
+
+/* Comment Streaming */
+
+.post-time {
+	font-size: 14px;
+	color: #bbb;
+}
+
+.profile-picture {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.post-container {
+	clear: both;
+}
+
+.post {
+	overflow: hidden;
+}
+
+/* tabs styling */
+
+.tab-nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.tab-nav li {
+	float: left;
+	margin-left: 10px;
+}
+
+.tab-nav a {
+	text-decoration: none;
+}
+
+.tab-link {
+	font-weight: bold;
+	font-size: .9em;
+	padding: 5px 10px 5px;
+	border-top: 1px solid #8080FF;
+	border-right: 1px solid #8080FF;
+	border-left: 1px solid #8080FF;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.tab-content {
+	clear: both;
+	position: relative;
+	top: -1px;
+	border: 1px solid #8080FF;
+	border-radius: 5px;
+	padding: 10px;
+	z-index: -1;
+}
+
+.tab-link-active {
+	border-bottom: 1px solid #fff;
+}
